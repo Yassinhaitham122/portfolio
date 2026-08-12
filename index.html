@@ -1,17 +1,30 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="styles.css" />
+
     <title>Yassin | Full Stack Developer</title>
   </head>
 
   <body>
+
+    <!-- ================= NAVIGATION ================= -->
+
     <nav>
       <div class="nav__bar">
-        <a href="#"><span class="logo nav__logo">Y</span> Yassin</a>
+        <a href="#">
+          <span class="logo nav__logo">Y</span>
+          Yassin
+        </a>
 
         <div class="nav__menu__btn" id="menu-btn">
           <i class="ri-menu-3-line"></i>
@@ -23,20 +36,25 @@
         <li><a href="#about">About</a></li>
         <li><a href="#service">Services</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact" class="btn">Contact</a></li>
+        <li>
+          <a href="#contact" class="btn">Contact</a>
+        </li>
       </ul>
 
       <a href="#contact" class="btn btn__large">Contact</a>
     </nav>
 
+
     <!-- ================= HOME ================= -->
 
     <header class="section__container header__container" id="home">
+
       <div class="header__image">
-        <img src="assets/whats.jpg" alt="Yassin" />
+        <img src="whats.jpg" alt="Yassin" />
       </div>
 
       <div class="header__content">
+
         <div>
           <h1>
             Yassin<br />
@@ -56,20 +74,43 @@
         <div class="header__btn">
           <a href="#contact" class="btn">Hire Me Now</a>
         </div>
+
       </div>
+
     </header>
+
 
     <!-- ================= ABOUT ================= -->
 
     <section class="section__container about__container" id="about">
+
       <div class="about__image">
-        <img src="assets/bg.png" alt="bg" class="about__bg-1" />
-        <img src="assets/bg.png" alt="bg" class="about__bg-2" />
-        <img src="assets/whats2.jpeg" alt="about" class="about__img" />
+
+        <img
+          src="bg.png"
+          alt="background"
+          class="about__bg-1"
+        />
+
+        <img
+          src="bg.png"
+          alt="background"
+          class="about__bg-2"
+        />
+
+        <img
+          src="whats2.jpeg"
+          alt="Yassin"
+          class="about__img"
+        />
+
       </div>
 
       <div class="about__content">
-        <h2 class="section__header">Bit About Me</h2>
+
+        <h2 class="section__header">
+          Bit About Me
+        </h2>
 
         <p class="section__description">
           Passionate about building scalable web solutions, I blend technical
@@ -81,15 +122,23 @@
         </p>
 
         <div class="about__btn">
-          <button class="btn">Download CV</button>
+          <button class="btn">
+            Download CV
+          </button>
         </div>
+
       </div>
+
     </section>
+
 
     <!-- ================= SERVICES ================= -->
 
     <section class="section__container service__container" id="service">
-      <h2 class="section__header">My Best Services</h2>
+
+      <h2 class="section__header">
+        My Best Services
+      </h2>
 
       <div class="service__grid">
 
@@ -106,6 +155,7 @@
           </p>
         </div>
 
+
         <div class="service__card">
           <span>
             <i class="ri-store-line"></i>
@@ -114,10 +164,11 @@
           <h4>E-commerce Solutions</h4>
 
           <p>
-            Building secure and scalable online stores with optimized checkout
-            flows and product management systems.
+            Building secure and scalable online stores with optimized
+            checkout flows and product management systems.
           </p>
         </div>
+
 
         <div class="service__card">
           <span>
@@ -132,6 +183,7 @@
           </p>
         </div>
 
+
         <div class="service__card">
           <span>
             <i class="ri-database-2-line"></i>
@@ -144,6 +196,7 @@
             to ensure data integrity and performance.
           </p>
         </div>
+
 
         <div class="service__card">
           <span>
@@ -158,6 +211,7 @@
           </p>
         </div>
 
+
         <div class="service__card">
           <span>
             <i class="ri-user-voice-line"></i>
@@ -171,7 +225,8 @@
           </p>
         </div>
 
-        <!-- NEW CRM SERVICE -->
+
+        <!-- CRM -->
 
         <div class="service__card">
           <span>
@@ -188,27 +243,41 @@
         </div>
 
       </div>
+
     </section>
+
 
     <!-- ================= PORTFOLIO ================= -->
 
-    <section class="section__container portfolio__container" id="portfolio">
+    <section
+      class="section__container portfolio__container"
+      id="portfolio"
+    >
 
-      <h2 class="section__header">My Portfolio</h2>
+      <h2 class="section__header">
+        My Portfolio
+      </h2>
 
       <p class="section__description">
         A showcase of my recent work, ranging from complex Full-Stack
         platforms to AI-driven diagnostic and advisory systems.
       </p>
 
+
       <div class="portfolio__grid">
+
 
         <!-- E-COMMERCE -->
 
         <div class="portfolio__card">
-          <img src="assets/e-commerse.png" alt="E-commerce Platform" />
+
+          <img
+            src="e-commerse.png"
+            alt="E-commerce Platform"
+          />
 
           <div class="portfolio__info">
+
             <h4>E-commerce Platform</h4>
 
             <p class="tech-stack">
@@ -218,15 +287,23 @@
             <p class="project-desc">
               Full-scale store with secure payments and inventory management.
             </p>
+
           </div>
+
         </div>
+
 
         <!-- CHAT -->
 
         <div class="portfolio__card">
-          <img src="assets/chat.png" alt="Real-time Chat" />
+
+          <img
+            src="chat.png"
+            alt="Real-time Chat"
+          />
 
           <div class="portfolio__info">
+
             <h4>Real-time Chat System</h4>
 
             <p class="tech-stack">
@@ -234,18 +311,26 @@
             </p>
 
             <p class="project-desc">
-              Instant messaging platform with real-time connectivity and data
-              persistence.
+              Instant messaging platform with real-time connectivity and
+              data persistence.
             </p>
+
           </div>
+
         </div>
+
 
         <!-- MAVEN -->
 
         <div class="portfolio__card">
-          <img src="assets/maven.png" alt="Maven Platform" />
+
+          <img
+            src="maven.png"
+            alt="Maven Platform"
+          />
 
           <div class="portfolio__info">
+
             <h4>Maven: Courses Platform</h4>
 
             <p class="tech-stack">
@@ -256,15 +341,23 @@
               Educational platform for managing courses, student progress,
               and content.
             </p>
+
           </div>
+
         </div>
+
 
         <!-- GYM -->
 
         <div class="portfolio__card">
-          <img src="assets/gym.png" alt="Gym Website" />
+
+          <img
+            src="gym.png"
+            alt="Gym Website"
+          />
 
           <div class="portfolio__info">
+
             <h4>Titan Gym Website</h4>
 
             <p class="tech-stack">
@@ -274,15 +367,23 @@
             <p class="project-desc">
               Dynamic gym management and landing page with membership tracking.
             </p>
+
           </div>
+
         </div>
+
 
         <!-- AI CAD -->
 
         <div class="portfolio__card">
-          <img src="assets/cad.png" alt="AI CAD Detection" />
+
+          <img
+            src="cad.png"
+            alt="AI CAD Detection"
+          />
 
           <div class="portfolio__info">
+
             <h4>Early CAD Detection AI</h4>
 
             <p class="tech-stack">
@@ -293,15 +394,23 @@
               Machine Learning model to predict early coronary artery disease
               indicators.
             </p>
+
           </div>
+
         </div>
+
 
         <!-- CAREER AI -->
 
         <div class="portfolio__card">
-          <img src="assets/career.png" alt="Career AI Advisor" />
+
+          <img
+            src="career.png"
+            alt="Career AI Advisor"
+          />
 
           <div class="portfolio__info">
+
             <h4>Career AI Advisor</h4>
 
             <p class="tech-stack">
@@ -311,15 +420,23 @@
             <p class="project-desc">
               Smart advisor providing career path guidance using AI algorithms.
             </p>
+
           </div>
+
         </div>
+
 
         <!-- CRM -->
 
         <div class="portfolio__card">
-          <img src="assets/crm.png" alt="CRM Platform" />
+
+          <img
+            src="crm.png"
+            alt="CRM Platform"
+          />
 
           <div class="portfolio__info">
+
             <h4>Agency CRM Platform</h4>
 
             <p class="tech-stack">
@@ -331,19 +448,26 @@
               clients, deals, tasks, follow-ups, and sales pipelines from one
               centralized dashboard.
             </p>
+
           </div>
+
         </div>
+
 
         <!-- CERTIFICATE -->
 
         <div class="portfolio__card">
+
           <img
-            src="assets/m10.png"
+            src="m10.png"
             alt="Server Deployment and Containerization Certificate"
           />
 
           <div class="portfolio__info">
-            <h4>Server Deployment and Containerization</h4>
+
+            <h4>
+              Server Deployment and Containerization
+            </h4>
 
             <p class="tech-stack">
               Docker • AWS • Linux • Server Deployment
@@ -353,17 +477,26 @@
               Hands-on training in containerizing applications and deploying
               web services using modern cloud and server deployment practices.
             </p>
+
           </div>
+
         </div>
 
       </div>
+
     </section>
+
 
     <!-- ================= CONTACT ================= -->
 
-    <section class="section__container contact__container" id="contact">
+    <section
+      class="section__container contact__container"
+      id="contact"
+    >
 
-      <div class="logo">Y</div>
+      <div class="logo">
+        Y
+      </div>
 
       <h2 class="section__header">
         Let's Talk With Me!
@@ -372,6 +505,7 @@
       <p class="section__description">
         Feel free to reach out for collaborations or just a friendly hello.
       </p>
+
 
       <div class="contact__socials">
 
@@ -382,6 +516,7 @@
           <i class="ri-whatsapp-fill"></i>
         </a>
 
+
         <a
           href="https://www.linkedin.com/in/yassin-haitham"
           target="_blank"
@@ -389,12 +524,14 @@
           <i class="ri-linkedin-fill"></i>
         </a>
 
+
         <a
           href="https://instagram.com/yassin_h911"
           target="_blank"
         >
           <i class="ri-instagram-line"></i>
         </a>
+
 
         <a
           href="https://github.com/Yassinhaitham122"
@@ -404,7 +541,9 @@
         </a>
 
       </div>
+
     </section>
+
 
     <!-- ================= FOOTER ================= -->
 
@@ -412,8 +551,10 @@
       Copyright © 2026 Yassin | Full Stack Developer. All rights reserved.
     </footer>
 
+
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="main.js"></script>
 
   </body>
 </html>
+```
